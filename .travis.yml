@@ -8,7 +8,7 @@ branches:
   only:
     - master
 
-
+dist: trusty
 
 script:
   - ./gradlew build --scan -s
