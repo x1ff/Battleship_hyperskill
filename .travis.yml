@@ -1,5 +1,5 @@
 language: java
-
+install: skip
 os: linux
 
 branches:
@@ -18,4 +18,4 @@ cache:
     - $HOME/.gradle/caches/
     - $HOME/.gradle/wrapper/
 script:
-  - ./gradlew assemble -x signArchives --scan -s
+  - ./gradlew gradlew build --scan -s
