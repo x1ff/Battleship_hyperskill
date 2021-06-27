@@ -1,9 +1,14 @@
 language: java
-install: gradle wrapper --gradle-version 6.7
 
 os: linux
+
+branches:
+  only:
+    - master
+
 dist: trusty
 jdk: oraclejdk8
+
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
   - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
