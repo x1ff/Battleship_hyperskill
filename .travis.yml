@@ -1,12 +1,14 @@
 language: java
 install: skip
+
 os: linux
+jdk: oraclejdk8
 
 branches:
   only:
     - master
 
-jdk: oraclejdk8
+
 
 script:
-  - ./gradlew gradlew build --scan -s
+  - ./gradlew build --scan -s
