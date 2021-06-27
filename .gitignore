@@ -110,7 +110,6 @@ fabric.properties
 # End of https://www.toptal.com/developers/gitignore/api/intellij
 /app/
 /.idea/
-/gradle/wrapper/
 /.gradle/6.7/gc.properties
 /.gradle/6.7/javaCompile/classAnalysis.bin
 /.gradle/
